@@ -2,6 +2,8 @@
 
 Project Woothee is multi-language user-agent strings parsers.
 
+You can try it on demo site: http://woothee.github.io/
+
 ## Why new project?
 
 We needs just same logic over 2 or more programming languages, for use on various frameworks, middlewares and environments.
@@ -10,16 +12,30 @@ Most important data of this project is only single set of return values, and set
 
 Implemantations:
 
-  * Java (and Hive UDF)
-  * Perl
-  * Ruby
-  * Python
-  * Javascript (Node.js or browser)
-  * PHP
-  * Go
+* [Java](https://github.com/woothee/woothee-java) (and Hive UDF)
+* [Perl](https://github.com/woothee/woothee-perl)
+* [Ruby](https://github.com/woothee/woothee-ruby)
+* [Python](https://github.com/woothee/woothee-python)
+* [Javascript](https://github.com/woothee/woothee-js) (Node.js or browser)
+* [PHP](https://github.com/woothee/woothee-php)
+* [Go](https://github.com/woothee/woothee-go)
 
 ## Versions
 
+* v1.4.0
+  * Add Vivaldi
+* v1.3.0
+  * Add Firefox for iOS
+* v1.2.1
+  * Fix testset bug for BlackBerry 10
+* v1.2.0
+  * Add Microsoft Edge, Webview of mobile phones
+  * Add Windows 10, BlackBerry 10
+  * Add Twitterbot
+* v1.1.0
+  * Add specs for blank input data
+* v1.0.1
+  * Add variations of MSIE11
 * v1.0.0
   * Some of implementations are not v1 yet.
 
@@ -27,8 +43,7 @@ Version numbers are used as:
 * vX.Y.Z
   * X and Y is major/minor number to control specs of dataset/testsets
   * Z is patch number for each language implementation release control
-
-So the version of this repository is always `X.Y.0`.
+  * Z is also used for bug fix control of testsets (versions of each language implementations should be bumped up too)
 
 ## Implementations
 
@@ -47,7 +62,6 @@ So the version of this repository is always `X.Y.0`.
 * Golang
   * https://github.com/woothee/woothee-go
 
-
 ## SYNOPSIS
 in Java: (use java/woothee.jar)
 
@@ -55,7 +69,7 @@ in Java: (use java/woothee.jar)
 // import is.tagomor.woothee.Classifier;
 // import is.tagomor.woothee.DataSet;
 Map r = Classifier.parse("user agent string");
-    
+
 r.get("name")
 // => name of browser (or string like name of user-agent)
 

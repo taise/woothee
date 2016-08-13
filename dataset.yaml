@@ -3,6 +3,11 @@
   type: browser
   vendor: Microsoft
 
+- label: Edge
+  name: Edge
+  type: browser
+  vendor: Microsoft
+
 - label: Chrome
   name: Chrome
   type: browser
@@ -23,13 +28,28 @@
   type: browser
   vendor: Opera
 
+- label: Vivaldi
+  name: Vivaldi
+  type: browser
+  vendor: Vivaldi Technologies
+
 - label: Sleipnir
   name: Sleipnir
   type: browser
   vendor: Fenrir Inc.
 
+- label: Webview
+  name: Webview
+  type: browser
+  vendor: OS vendor
+
 - label: Win
   name: Windows UNKNOWN Ver
+  type: os
+  category: pc
+
+- label: Win10
+  name: Windows 10
   type: os
   category: pc
 
@@ -42,12 +62,12 @@
   name: Windows 8
   type: os
   category: pc
-  
+
 - label: Win7
   name: Windows 7
   type: os
   category: pc
-  
+
 - label: WinVista
   name: Windows Vista
   type: os
@@ -150,6 +170,11 @@
 
 - label: BlackBerry
   name: BlackBerry
+  type: os
+  category: smartphone
+
+- label: BlackBerry10
+  name: BlackBerry 10
   type: os
   category: smartphone
 
@@ -381,6 +406,11 @@
 
 - label: facebook
   name: facebook
+  type: full
+  category: crawler
+
+- label: twitter
+  name: twitter
   type: full
   category: crawler
 

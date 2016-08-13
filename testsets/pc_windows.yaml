@@ -78,6 +78,35 @@
   os_version: 'NT 6.3'
   category: pc
 
+## some variations of MSIE11
+- target: 'Mozilla/5.0 (Windows NT 6.1; Trident/7.0; MALCJS; rv:11.0) like Gecko'
+  name: Internet Explorer
+  version: '11.0'
+  os: Windows 7
+  os_version: 'NT 6.1'
+  category: pc
+
+- target: 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; MASPJS; rv:11.0) like Gecko'
+  name: Internet Explorer
+  version: '11.0'
+  os: Windows 7
+  os_version: 'NT 6.1'
+  category: pc
+
+- target: 'Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko'
+  name: Internet Explorer
+  version: '11.0'
+  os: Windows 8.1
+  os_version: 'NT 6.3'
+  category: pc
+
+- target: 'Mozilla/5.0 (Windows NT 6.3; Win64; x64; Trident/7.0; Touch; rv:11.0) like Gecko'
+  name: Internet Explorer
+  version: '11.0'
+  os: Windows 8.1
+  os_version: 'NT 6.3'
+  category: pc
+
 # UNKNOWN (IE4.78?) + Windows 98
 - target: 'Mozilla/4.78 [ja] (Win98; U)'
   name: UNKNOWN
@@ -90,6 +119,13 @@
   name: UNKNOWN
   os: Windows 7
   os_version: 'NT 6.1'
+  category: pc
+
+# Windows 10 + Edge
+- target: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240'
+  name: Edge
+  os: Windows 10
+  os_version: 'NT 10.0'
   category: pc
 
 # Chrome
@@ -124,6 +160,14 @@
   os_version: 'NT 5.1'
   category: pc
 
+# Vivaldi
+- target: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.88 Safari/537.36 Vivaldi/1.0.380.2'
+  name: Vivaldi
+  version: '1.0.380.2'
+  os: Windows 10
+  os_version: 'NT 10.0'
+  category: pc
+
 # Opera (webkit)
 - target: 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36 OPR/20.0.1387.64'
   name: Opera
@@ -153,4 +197,3 @@
   os: Windows XP
   os_version: 'NT 5.1'
   category: pc
-
